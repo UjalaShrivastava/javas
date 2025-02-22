@@ -1,5 +1,6 @@
 //primitive
 
+// 7 types: String, Number, Boolean, null, undefined, symbol
 
 const score = 100
 const scoreValue = 100.6
