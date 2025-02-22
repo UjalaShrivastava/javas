@@ -38,3 +38,7 @@ console.log(typeof fruits)
 console.log(typeof student)
 console.log(typeof myFunction)
 
+//--------------------------------------------------------
+
+// Stack(Primitive) --- we get copy of variables
+// heap(non-primitive) --- we get references(original) values of data
