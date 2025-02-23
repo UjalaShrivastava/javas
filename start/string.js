@@ -9,5 +9,8 @@ console.log(name.toUpperCase());
 console.log(name.charAt(4));
 console.log(name.indexOf('l'));
 
+const strings = "     cgfrtnkkhtfb     ";
+console.log(strings);
+console.log(strings.trim());
 
 
