@@ -4,11 +4,11 @@ employee.id = "12345",
 employee.name = "Raj",
 employee.age = 27
 
-console.log(employee);
-console.log(Object.keys(employee));
-console.log(Object.values(employee));
-console.log(Object.entries(employee));
-console.log(employee.hasOwnProperty('id'));
+// console.log(employee);
+// console.log(Object.keys(employee));
+// console.log(Object.values(employee));
+// console.log(Object.entries(employee));
+// console.log(employee.hasOwnProperty('id'));
 
 const managers = {
     email: "hello@.com",
@@ -39,3 +39,14 @@ const hii = {a: "1", b: "3"}
 const things = {...car, ...flower2, ...hii} 
 // console.log(things);
 
+// object destructuring
+
+const food = {
+    foodname: "Matar Paneer",
+    price: "180",
+    mainIngredient: "Paneer"
+}
+
+const {mainIngredient: ingredient} = food
+// console.log(mainIngredient);
+console.log(ingredient);
