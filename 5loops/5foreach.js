@@ -17,5 +17,26 @@ const sports = ["Cricket", "Football", "Badminton", "Volleyball", "Baseball"]
 
 
 sports.forEach( (item, index, arr) => {
-    console.log(item, index, arr);
+    // console.log(item, index, arr);
+})
+
+
+const myCoding = [
+    {
+        languageName: "JavaSript",
+        fileName: "JS"
+    },
+    {
+        languageName: "Python",
+        fileName: "Py"
+    },
+    {
+        languageName: "JAVA",
+        fileName: "Java"
+    }
+]
+
+myCoding.forEach( (items) => {
+    console.log(items.languageName);
+    
 })
