@@ -10,7 +10,7 @@ if (true){
 // console.log(`value of a in the global scope is: ${a}`);
 
 
-
+// nesting---------
 function one(){
     const name = "Ujala"
 
