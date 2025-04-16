@@ -8,7 +8,7 @@ const nflowers = flowers.splice(1, 2);
 console.log(nflowers);
 
 
-fruits.push(flowers);
+(fruits.push(flowers));
 console.log(fruits);
 
 const all = fruits.concat(flowers)
